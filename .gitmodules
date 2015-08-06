@@ -1,0 +1,18 @@
+[submodule "doms-client"]
+	path = doms-client
+	url = git@github.com:statsbiblioteket/doms-client.git
+[submodule "doms-ecm-lib"]
+	path = doms-ecm-lib
+	url = https://github.com/statsbiblioteket/doms-ecm-lib.git
+[submodule "doms-installer"]
+	path = doms-installer
+	url = git@github.com:statsbiblioteket/doms-installer.git
+[submodule "doms-integrations"]
+	path = doms-integrations
+	url = git@github.com:statsbiblioteket/doms-integrations.git
+[submodule "doms-server"]
+	path = doms-server
+	url = git@github.com:statsbiblioteket/doms-server.git
+[submodule "doms-update-tracker"]
+	path = doms-update-tracker
+	url = git@github.com:statsbiblioteket/doms-update-tracker.git

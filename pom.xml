@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>dk.statsbiblioteket.doms</groupId>
+        <artifactId>doms</artifactId>
+        <version>1.2</version>
+    </parent>
+
+    <groupId>dk.statsbiblioteket.doms</groupId>
+    <artifactId>doms-bundle</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <packaging>pom</packaging>
+
+    <properties><!--We couldn't be bothered to write valid javadoc, so ignore it-->
+        <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
+    </properties>
+
+    <modules>
+        <module>doms-ecm-lib</module>
+        <module>doms-installer</module>
+        <module>doms-integrations</module>
+        <module>doms-server</module>
+        <module>doms-update-tracker</module>
+        <module>doms-client</module>
+    </modules>
+
+</project>
