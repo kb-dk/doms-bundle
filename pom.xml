@@ -20,6 +20,8 @@
     <modules>
         <module>doms-ecm-lib</module>
         <module>doms-installer</module>
+        <module>doms-gui-installer</module>
+        <module>doms-gui</module>
         <module>doms-integrations</module>
         <module>doms-server</module>
         <module>doms-update-tracker</module>
